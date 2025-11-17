@@ -1,4 +1,4 @@
-# argocd-knowledge
+# argocd-notes
 
 ```bash
 brew install minikube
