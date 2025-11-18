@@ -26,11 +26,6 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 ```bash
 kubectl port-forward service/argocd-server -n argocd 8080:443
 ```
-Or port-forward in background mode:
-```bash
-kubectl port-forward svc/argocd-server -n argocd 8080:443 > /dev/null 2>&1 &
-```
-
 
 ***Gallery***
 
