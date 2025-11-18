@@ -35,7 +35,6 @@ kubectl port-forward service/argocd-server -n argocd 8080:443
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/e1a01951-d01f-49ab-9e03-50587d8e0705" />
 
 
-
 ***Links***
 
 https://www.youtube.com/watch?v=JLrR9RV9AFA&t=412s
