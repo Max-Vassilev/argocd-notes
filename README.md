@@ -39,6 +39,10 @@ kubectl port-forward service/myhelmapp -n argocd 8888:80 -n dev
 
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/06a01f59-3208-4d78-a047-c3afff77068e" />
 
+***In the following example I have set the app to auto-sync, also I have decreased the number of replicas down to 2, so the Argo catches the change and deletes 3 of the pods:***
+<img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/24e093f5-c69b-4dc2-be3d-664204852c61" />
+
+
 ***Links***
 
 https://www.youtube.com/watch?v=JLrR9RV9AFA&t=412s
