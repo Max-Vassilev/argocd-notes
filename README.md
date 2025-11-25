@@ -42,6 +42,8 @@ kubectl port-forward service/myhelmapp -n argocd 8888:80 -n dev
 ***In the following example, I have set the app to auto-sync. I have also decreased the number of replicas to 2, so Argo catches the change and deletes 3 of the pods:***
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/24e093f5-c69b-4dc2-be3d-664204852c61" />
 
+***After the previous example, I was left with 2 pods. In this example, I rolled back to demonstrate how useful Argo CD’s history feature is:***
+<img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/08596620-0fdf-422b-811b-92b0392924e8" />
 
 ***Links***
 
