@@ -31,7 +31,9 @@ kubectl port-forward service/argocd-server -n argocd 8080:443
 kubectl port-forward service/myhelmapp -n argocd 8888:80 -n dev
 ```
 
-***Gallery***
+**Gallery**
+
+***Helm***
 
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/a32f78d9-017a-454a-87c7-e2fe6ab84783" />
 
@@ -44,6 +46,10 @@ kubectl port-forward service/myhelmapp -n argocd 8888:80 -n dev
 
 ***After the previous example, I was left with 2 pods. In this example, I rolled back to demonstrate how useful Argo CD’s history feature is:***
 <img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/08596620-0fdf-422b-811b-92b0392924e8" />
+
+***Kustomize***
+
+<img width="1500" height="800" alt="image" src="https://github.com/user-attachments/assets/ee3db498-c2fb-42d4-8936-97ab82f9184b" />
 
 ***Links***
 
